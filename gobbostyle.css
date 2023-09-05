@@ -1,0 +1,48 @@
+.bagbrand {
+  background-color: #5d9c7a;
+  color: #504a4a;
+  text-align: center;
+  padding: 3px;
+  margin: 12px;
+  max-width: 600px;
+}
+
+.bagslot {
+  padding-left: 27px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  gap: 5px;
+  margin: 0%;
+  max-width: 320px;
+}
+
+.bagspace {
+  background-color: #e6c68a;
+  border: 1px solid #b89393;
+}
+
+.loot {
+  padding-left: 27px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  gap: 5px;
+  margin: 0%;
+  max-width: 320px;
+}
+
+.lootitem {
+  background-color: #e6c68a;
+  border: 1px solid #b89393;
+}
+
+.held {
+  border: 2px dashed red;
+  /* Example styling for held item */
+}
+
+.occupied {
+  background-color: yellow;
+  /* Example styling for occupied bag space */
+}
